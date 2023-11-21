@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#filter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#type {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para los elementos del grid de Pokémon */
+.pokemon-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+}
+
+.pokemon-name {
+    font-weight: bold;
+}
+
+/* Estilos para la página de detalles */
+#pokemon-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#
